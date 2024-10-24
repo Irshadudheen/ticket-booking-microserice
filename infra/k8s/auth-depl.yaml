@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: irhadudheen/tiket-auth:latest
+          image: irhadudheen/ticket-auth:latest
 ---
 apiVersion: v1
 kind: Service
