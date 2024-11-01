@@ -1,7 +1,7 @@
 import express,{json} from 'express'
+import 'express-async-errors'
 import { currentUserRouter,singinRouter,singoutRouter,singupRouter } from './routes/index'
 import { errorhandler } from './middlewares/error-handler'
-import 'express-async-errors'
 import mongoose from 'mongoose'
 const app = express()
 import cors from 'cors'
